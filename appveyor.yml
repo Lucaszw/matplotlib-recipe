@@ -1,11 +1,11 @@
 environment:
-  GIT_REPOSITORY: https://github.com/wheeler-microfluidics/matplotlib-recipe.git
+  GIT_REPOSITORY: https://github.com/Lucaszw/wheezy.routing-recipe
   matrix:
     - PYTHON_VERSION: 2.7
       MINICONDA: C:\Miniconda
       PYTHON_ARCH: "32"
 
-version: '2.0.2.22_appveyor-{build}'
+version: '0.1.157-{build}'
 
 init:
   - "ECHO %PYTHON_VERSION% %MINICONDA%"
